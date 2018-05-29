@@ -17,15 +17,10 @@
 
 #intro .intro-text {
   position: absolute;
-  left: 0;
-  top: 100px;
+  left: 50%;
+  top: 50%;
   right: 0;
-  height: calc(50% + 100px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
+  transform: translate(-50%, -50%);
 }
 
 #intro h2 {
