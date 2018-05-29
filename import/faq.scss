@@ -1,0 +1,215 @@
+/* Frequently Asked Questions Section
+--------------------------------*/
+.banner {
+background-size: cover;
+background-position: left center;
+height: 250px;
+position: relative;
+resize: vertical;
+  &.bg-faq {
+    background-image: url('assets/images/faq-header.jpg');
+  }
+  &.bg-contact {
+    background-image: url('assets/images/contact-us-header.jpg');
+  }
+  &.bg-surfing {
+    background-image: url('assets/images/surfing-header.jpg');
+  }
+  &.bg-school {
+    background-image: url('assets/images/school-header.jpg');
+  }
+}
+
+.banner .container h2 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  text-transform: none;
+  position: relative;
+}
+
+#faq {
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+#faq #faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+#faq #faq-list li {
+  border-bottom: 1px solid #ddd;
+}
+
+#faq #faq-list a {
+  padding: 18px 0;
+  display: block;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: normal;
+  padding-right: 20px;
+}
+
+#faq #faq-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+#faq #faq-list p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #faq #faq-list a {
+    font-size: 14px;
+  }
+  #faq #faq-list i {
+    top: 10px;
+  }
+  #faq #faq-list a {
+    padding: 12px 0;
+  }
+}
+
+#faq #faq-list a.collapse {
+  color: #b3241d;
+}
+
+#faq #faq-list a.collapsed {
+  color: #444;
+}
+
+#faq #faq-list a.collapsed i::before {
+  content: "\f2c7" !important;
+}
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+/* Sections Header
+--------------------------------*/
+.section-header .section-title {
+  font-size: 32px;
+  color: #111;
+  text-align: center;
+  font-weight: 400;
+}
+
+.section-header .section-description {
+  text-align: center;
+  padding-bottom: 0;
+  color: #777;
+  font-style: italic;
+}
+
+.section-header .section-divider {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1dc8cd;
+  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Section with background
+--------------------------------*/
+.section-bg {
+  background: #eff5f5;
+}
+
+/* About Us Section
+--------------------------------*/
+#about {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+#about .about-img {
+  height: 510px;
+  overflow: hidden;
+}
+
+#about .about-img img {
+  margin-left: -15px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about .about-img {
+    height: auto;
+  }
+  #about .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about .content .h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#about .content h3 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+#about .content p {
+  line-height: 26px;
+}
+
+#about .content p:last-child {
+  margin-bottom: 0;
+}
+
+#about .content i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1dc8cd;
+}
+
+#about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about .content ul li {
+  padding-bottom: 10px;
+}
+
+a:hover, a:active, a:focus {
+    color: #b3241d;
+    outline: none;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 100px;
+  }
+
+  .banner .container h2 {
+    font-size:16px;
+    position: absolute;
+    bottom: 10px;
+  }
+  .btn-danger {
+    width:100%;
+  }
+  .accordion-header {
+    font-size: 0.7em;
+  }
+}

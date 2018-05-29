@@ -1,0 +1,122 @@
+
+// course list
+.bg-tall {
+  height: 600px;
+}
+
+.bg-small {
+  height: 300px;
+}
+
+.link {
+  background-color:rgba(0,0,0,0);
+  position:absolute;
+  top: 0;
+  bottom:0;
+  right:0;
+  left:0;
+    transition: 0.2s linear;
+}
+
+.link:hover {
+background-color:rgba(0,0,0,0.5);
+}
+.caption {
+  position:absolute;
+  color:white;
+    text-shadow: 1px 1px black;
+  font-weight: 700;
+  top:50%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  z-index:100;
+
+}
+
+.box1 {
+  background-color: purple;
+position:absolute;
+  top: 2px;
+  bottom: 2px;
+  left:2px;
+  right: 2px;
+}
+
+.bg-surfing {
+  background: url("assets/images/course-surfing.jpg") no-repeat center center ;
+  background-size:cover;
+}
+
+.bg-sup {
+  background: url("assets/images/course-sup.jpg") no-repeat center center;
+  background-size:cover;
+}
+
+.bg-bodyboard {
+  background: url("assets/images/course-bodyboard.jpg") no-repeat center center;
+  background-size:cover;
+}
+
+.bg-daypass {
+  background: url("assets/images/course-daypass.jpg") no-repeat center center;
+  background-size:cover;
+}
+
+.bg-seakayak {
+  background: url("assets/images/course-seakayak.jpg") no-repeat center center;
+  background-size:cover;
+}
+
+.bg-pulau {
+  background: url("assets/images/course-taxy.jpg") no-repeat center center;
+  background-size:cover;
+}
+
+@media (max-width:767.98px) {
+  .bg-tall {
+    max-height: 200px;
+  }
+
+  .bg-small {
+    max-height: 200px;
+  }
+  .banner-caption {
+        width:100%;
+  }
+  .banner-caption h2 {
+    font-size:2rem;
+  }
+    .banner-caption p {
+    font-size:16px;
+  }
+}
+
+// feature list section
+.section {
+    position: relative;
+    margin: 60px 0;
+    padding: 60px 0;
+    background-color: #F9F9F9;
+    overflow: hidden;
+}
+
+.heading-block {
+    margin-bottom: 50px;
+}
+
+.heading-block h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.bottommargin {
+    margin-bottom: 50px !important;
+}
+
+.topmargin {
+    margin-top: 50px !important;
+}
