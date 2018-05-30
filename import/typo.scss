@@ -1,0 +1,56 @@
+.heading-title {
+      margin-bottom: 10px;
+}
+
+.feature h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.feature h2 span {
+  font-weight: 300;
+  color: #777;
+  font-size: 22px;
+}
+
+.feature-box h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #333;
+}
+
+.feature-box p {
+  line-height: 1.8;
+  margin: 8px 0 0 0;
+  color: #777;
+}
+
+.partners h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.w-700 p {
+  font-weight: 300;
+  color: #777;
+  font-size: 22px;
+}
+
+@media (max-width:576px) {
+  .w-700 p {
+    font-weight: 300;
+    color: #777;
+    font-size: 18px;
+  }
+}
