@@ -247,41 +247,6 @@ ul.social-icons {
 
 /* Frequently Asked Questions Section
 --------------------------------*/
-.banner {
-  background-size: cover;
-  background-position: left center;
-  height: 250px;
-  position: relative;
-  resize: vertical;
-}
-
-.banner.bg-faq {
-  background-image: url("assets/images/faq-header.jpg");
-}
-
-.banner.bg-contact {
-  background-image: url("assets/images/contact-us-header.jpg");
-}
-
-.banner.bg-surfing {
-  background-image: url("assets/images/surfing-header.jpg");
-}
-
-.banner.bg-school {
-  background-image: url("assets/images/school-header.jpg");
-}
-
-.banner .container h2 {
-  color: #fff;
-  font-size: 2em;
-  font-weight: bold;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  text-transform: none;
-  position: relative;
-}
-
 #faq {
   padding: 20px 0;
   overflow: hidden;
@@ -711,7 +676,6 @@ small.text-muted {
 
 .partners {
   padding: 20px 0;
-  background-color: #fef6f3;
 }
 
 .w-700 {
@@ -802,8 +766,56 @@ small.text-muted {
   }
 }
 
+.banner h1 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  position: relative;
+}
+
 .heading-title {
   margin-bottom: 10px;
+}
+
+.desc {
+  max-width: 700px;
+}
+
+.desc p {
+  line-height: 1.8;
+  margin: 8px 0 0 0;
+  color: #777;
+}
+
+.desc h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #333;
+}
+
+#surfing h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+#school h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
 }
 
 .feature h2 {
@@ -857,6 +869,61 @@ small.text-muted {
     color: #777;
     font-size: 18px;
   }
+}
+
+.bg-darkgray {
+  background-color: #f0f0f0;
+}
+
+.banner {
+  background-size: cover;
+  background-position: left center;
+  height: 250px;
+  position: relative;
+  resize: vertical;
+}
+
+.banner.bg-faq {
+  background-image: url("assets/images/faq-header.jpg");
+}
+
+.banner.bg-contact {
+  background-image: url("assets/images/contact-us-header.jpg");
+}
+
+.banner.bg-surfing {
+  background-image: url("assets/images/surfing-header.jpg");
+}
+
+.banner.bg-school {
+  background-image: url("assets/images/school-header.jpg");
+}
+
+.banner.bg-boat-taxy {
+  background-image: url("assets/images/school-header.jpg");
+}
+
+.banner.bg-gallery {
+  background-image: url("assets/images/school-header.jpg");
+}
+
+.banner.bg-rental {
+  background-image: url("assets/images/school-header.jpg");
+}
+
+.banner.bg-services {
+  background-image: url("assets/images/school-header.jpg");
+}
+
+.banner .container h2 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  position: relative;
 }
 
 .fbox-icon {
