@@ -493,6 +493,16 @@ a:hover, a:active, a:focus {
   padding: 0;
 }
 
+.green-contact-form {
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.title-form {
+  max-width: 550px;
+}
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -566,7 +576,7 @@ small.text-muted {
 .course p {
   font-weight: 300;
   color: #777;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 @media (max-width: 767px) {
@@ -746,6 +756,10 @@ small.text-muted {
   width: 16.66%;
 }
 
+.clients-grid.grid-4 li {
+  width: 25%;
+}
+
 .clients-grid li {
   float: left;
   position: relative;
@@ -785,6 +799,9 @@ small.text-muted {
 
 @media (max-width: 576px) {
   .clients-grid.grid-6 li {
+    width: 50%;
+  }
+  .clients-grid.grid-4 li {
     width: 50%;
   }
 }
@@ -947,6 +964,256 @@ small.text-muted {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   text-transform: none;
   position: relative;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.about-content p {
+  font-weight: 300;
+  color: #777;
+  font-size: 18px;
+}
+
+.about-content {
+  padding-right: 60px;
+}
+
+.btn-black {
+  color: #fff;
+  background-color: black;
+  transition: 0.5s;
+  border-radius: 1;
+}
+
+.btn-black:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+}
+
+@media (max-width: 576px) {
+  .about-content {
+    padding-right: 0;
+  }
+  .about-content h2 {
+    font-size: 26px;
+  }
+  .about-content p {
+    font-size: 16px;
+  }
+}
+
+#courses h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+#courses p {
+  font-weight: 300;
+  color: #777;
+  font-size: 18px;
+}
+
+.color-text {
+  color: #a52903;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.place-name {
+  color: #484848;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 14px;
+  line-height: 18px;
+  color: #484848 !important;
+}
+
+img {
+  /*   width:100%; */
+  border-radius: 3px;
+}
+
+span {
+  display: block;
+}
+
+.checked {
+  color: #008489 !important;
+  font-size: 9px;
+}
+
+.text-desc {
+  font-size: 14px !important;
+}
+
+.text-color {
+  color: #ffb400 !important;
+  font-size: 12px !important;
+}
+
+.rating {
+  font-size: 12px;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption.top {
+  max-width: 400px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+figcaption.button {
+  max-width: 400px;
+  position: absolute;
+  top: 120px;
+  left: 40px;
+}
+
+.btn-bnb {
+  background-color: white;
+  color: #484848;
+  border-radius: 4px !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: transparent !important;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 4px 0px !important;
+  font-size: 16px !important;
+  line-height: 21px !important;
+  font-weight: 800 !important;
+  padding: 12px 24px;
+}
+
+figcaption.sign {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+figure img {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  figure {
+    height: 300px;
+  }
+  figure img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+.services-title {
+  max-width: 700px;
+}
+
+figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+figcaption h3 {
+  font-size: 36px !important;
+}
+
+.col-md-6 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.cta {
+  background: url(https://source.unsplash.com/U6dnImauDAE/1600x900) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  min-height: 150px;
+  padding: 72px 64px 72px 96px;
+  position: relative;
+}
+
+.maps-full-bleed {
+  margin: 0 calc(50% - 50vw);
+}
+
+.jb-hero-solutions.maps-full-bleed .jb-hero-content {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+}
+
+.hero-title {
+  font-size: 30px;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+  text-transform: none;
+  max-width: 500px;
+}
+
+/* for mobile view */
+@media only screen and (max-width: 1024px) {
+  .maps-cta-section .jb-hero-solutions {
+    padding: 50px 0 0;
+  }
+  .jb-hero-solutions {
+    background-size: 100% auto;
+    background-position: top right;
+    padding: 50px 0 0 0;
+  }
+  .cta {
+    height: auto;
+    min-height: auto;
+  }
+  .maps-cta-section .jb-hero-solutions .jb-hero-content {
+    padding: 20px 26px 40px;
+  }
+  .jb-hero-solutions .jb-hero-content {
+    background: #fff;
+    margin-top: 30%;
+  }
+  .hero-title {
+    color: #424242;
+    font-size: 28px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+  }
+  /*   make button use full width */
+  .hero-additional-content .btn {
+    width: 100%;
+  }
 }
 
 .fbox-icon {

@@ -1,0 +1,63 @@
+.cta {
+  background: url(https://source.unsplash.com/U6dnImauDAE/1600x900) no-repeat center center;
+  background-size:cover;
+   color: #fff;
+    min-height: 150px;
+    padding: 72px 64px 72px 96px;
+    position: relative;
+}
+
+.maps-full-bleed {
+    margin: 0 calc(50% - 50vw);
+}
+
+.jb-hero-solutions.maps-full-bleed .jb-hero-content {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.hero-title {
+    font-size: 30px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    text-transform: none;
+    max-width: 500px;
+}
+
+
+/* for mobile view */
+
+@media only screen and (max-width: 1024px) {
+   .maps-cta-section .jb-hero-solutions {
+    padding: 50px 0 0;
+  }
+  .jb-hero-solutions {
+    background-size: 100% auto;
+    background-position: top right;
+    padding: 50px 0 0 0;
+  }
+  .cta {
+    height: auto;
+    min-height: auto;
+  }
+  .maps-cta-section .jb-hero-solutions .jb-hero-content {
+    padding: 20px 26px 40px;
+  }
+  .jb-hero-solutions .jb-hero-content {
+    background: #fff;
+    margin-top: 30%;
+  }
+  .hero-title {
+    color:#424242;
+    font-size: 28px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+  }
+
+/*   make button use full width */
+  .hero-additional-content .btn {
+    width:100%;
+  }
+}

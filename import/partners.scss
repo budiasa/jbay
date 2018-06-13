@@ -48,6 +48,10 @@
     width: 16.66%;
 }
 
+.clients-grid.grid-4 li {
+    width: 25%;
+}
+
 .clients-grid li {
     float: left;
     position: relative;
@@ -89,4 +93,7 @@
     .clients-grid.grid-6 li {
       width: 50%;
   }
+  .clients-grid.grid-4 li {
+    width: 50%;
+}
 }
