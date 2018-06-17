@@ -7,6 +7,7 @@
   background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("assets/images/hero.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
+  background-attachment:fixed;
 }
 
 @media (min-width: 1024px) {
