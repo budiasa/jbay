@@ -198,6 +198,7 @@ ul.social-icons {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("assets/images/hero.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
 
 @media (min-width: 1024px) {
@@ -1274,7 +1275,7 @@ a:hover {
 }
 
 #header {
-  background: rgba(0, 0, 0, 0.2);
+  background: white;
   padding: 30px 0;
   height: 80px;
   position: fixed;
@@ -1420,7 +1421,7 @@ a:hover {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #EEE;
+  color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -1477,7 +1478,7 @@ a:hover {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: black;
 }
 
 @media (max-width: 768px) {
@@ -1569,4 +1570,8 @@ body.mobile-nav-active #mobile-nav {
 
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
+}
+
+#logo {
+  margin-top: -10px;
 }
