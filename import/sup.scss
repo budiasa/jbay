@@ -1,0 +1,17 @@
+.bg-paddle {
+    background:url("../assets/images/sup.jpg") no-repeat top center;
+  background-size:cover
+}
+
+.card {
+  overflow:hidden;
+}
+
+@media (max-width:756px) {
+  .bg-paddle {
+    height:300px;
+    overflow:hidden;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+}

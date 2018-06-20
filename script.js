@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
     } else {
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
-      $('#mobile-nav-toggle i').css("color","#fff");
+      $('#mobile-nav-toggle i').css("color","#444");
     }
   });
   $('.back-to-top').click(function() {
